@@ -10,5 +10,4 @@ class Bibliotheque(BaseBibliotheque):
         print(f"📖 Livre '{titre}' ajouté avec succès !")
 
     def livres_disponibles(self):
-        """Affiche la liste des livres non empruntés"""
-        return [titre for titre in self.livres.keys()]
+        ##Completer ici

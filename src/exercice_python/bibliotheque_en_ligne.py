@@ -26,5 +26,4 @@ class BibliothequeEnLigne(Bibliotheque):
             print(f"❌ Le livre '{titre}' n'est pas emprunté.")
 
     def livres_disponibles(self):
-        """Retourne les livres qui ne sont pas empruntés"""
-        return [titre for titre in self.livres.keys() if titre not in self.emprunts]
+        ##Completer ici
